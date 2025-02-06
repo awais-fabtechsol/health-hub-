@@ -48,11 +48,11 @@ const listItemData = [
     link: "/admin/appointments",
     icon: <IoCalendarOutline size={20} />,
   },
-  {
-    label: "EHR",
-    link: "/admin/ehr",
-    icon: <IoDocumentTextOutline size={20} />,
-  },
+  // {
+  //   label: "EHR",
+  //   link: "/admin/ehr",
+  //   icon: <IoDocumentTextOutline size={20} />,
+  // },
   {
     label: "Payments",
     link: "/admin/payments",

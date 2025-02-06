@@ -11,6 +11,7 @@ import Patient from './Admin/Patient';
 import Doctors from './Admin/Doctors';
 import BloodBank from './Admin/BloodBank';
 import Appointment from './Admin/Appointment';
+import Payment from './Admin/Payment';
 import EHR from './Admin/EHR';
 // import Payment from './Admin/Payment';
 import Blog from './Admin/Blog';
@@ -38,8 +39,8 @@ function App() {
   <Route path="/admin/doctors" element={<Doctors />} />
   <Route path="/admin/bloodbank" element={<BloodBank />} />
   <Route path="/admin/appointments" element={<Appointment />} />
-  <Route path="/admin/ehr" element={<EHR />} />
-  {/* <Route path="/admin/payments" element={<Payment />} /> */}
+  {/* <Route path="/admin/ehr" element={<EHR />} /> */}
+  <Route path="/admin/payments" element={<Payment />} />
   <Route path="/admin/blogs" element={<Blog />} />
 </Route>
 
